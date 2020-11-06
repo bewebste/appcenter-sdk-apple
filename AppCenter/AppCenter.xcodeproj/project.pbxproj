@@ -1350,6 +1350,7 @@
 		D55E7082252F5A1000AB994D /* MSACTestSessionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACTestSessionInfo.m; sourceTree = "<group>"; };
 		D55E7083252F5A1000AB994D /* MSACTestSessionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACTestSessionInfo.h; sourceTree = "<group>"; };
 		D5812F312423C2FA00C5F5C5 /* MSACUserDefaultsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACUserDefaultsTests.m; sourceTree = "<group>"; };
+		DDFB87B32555FA2700A11C23 /* AppCenter Beta.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "AppCenter Beta.xcconfig"; sourceTree = "<group>"; };
 		DF5DA1F823A0E55500DE695C /* MSACDispatcherUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSACDispatcherUtil.h; sourceTree = "<group>"; };
 		DF5DA1FC23A0E57B00DE695C /* MSACDispatcherUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSACDispatcherUtil.m; sourceTree = "<group>"; };
 		DFCB7FFD2472C1BD0058D292 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = ../../Vendor/OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
@@ -1729,6 +1730,7 @@
 			isa = PBXGroup;
 			children = (
 				6E0401841D1CAD810051BCFA /* AppCenter Debug.xcconfig */,
+				DDFB87B32555FA2700A11C23 /* AppCenter Beta.xcconfig */,
 				0469D1B11F4DF89A00A43A8E /* AppCenter Release.xcconfig */,
 				04545DC8227B603D00A49E06 /* AppCenter.xcconfig */,
 				C9A92026230C08540068070D /* Info.plist */,
@@ -3820,6 +3822,107 @@
 			};
 			name = Release;
 		};
+		DDFB85CC2555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFB87B32555FA2700A11C23 /* AppCenter Beta.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85CD2555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Beta;
+		};
+		DDFB85CE2555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26F4DE42546EB33006E0EB7 /* XCFramework.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85CF2555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049BC8281ECE3A5200FB6719 /* iOS.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+			};
+			name = Beta;
+		};
+		DDFB85D02555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04840CD71ECCF6560020B0FC /* Tests iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D12555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26F4DED2546EB34006E0EB7 /* iOS Universal.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D22555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049BC8281ECE3A5200FB6719 /* iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D32555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049BC8291ECE3A5A00FB6719 /* macOS.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+			};
+			name = Beta;
+		};
+		DDFB85D42555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041CFF8D1ECCFFD200B4654B /* Tests macOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D52555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049BC8291ECE3A5A00FB6719 /* macOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D62555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043120711EE0BCC4007054C5 /* tvOS.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+			};
+			name = Beta;
+		};
+		DDFB85D72555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0484DD5E1F3910DF0092B777 /* Tests tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D82555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26F4DEE2546EB34006E0EB7 /* tvOS Universal.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		DDFB85D92555EBD900A11C23 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043120711EE0BCC4007054C5 /* tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3827,6 +3930,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0431214C1EE0BFC7007054C5 /* Debug */,
+				DDFB85D82555EBD900A11C23 /* Beta */,
 				0431214D1EE0BFC7007054C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3836,6 +3940,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0446DF291F3B864600C8E338 /* Debug */,
+				DDFB85D72555EBD900A11C23 /* Beta */,
 				0446DF2A1F3B864600C8E338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3845,6 +3950,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				046AEAF41ECA562A00CBE511 /* Debug */,
+				DDFB85D42555EBD900A11C23 /* Beta */,
 				046AEAF51ECA562A00CBE511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3854,6 +3960,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04FD11511EF2F5F0000C5A5C /* Debug */,
+				DDFB85D52555EBD900A11C23 /* Beta */,
 				04FD11521EF2F5F0000C5A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3863,6 +3970,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04FD116C1EF2FE1D000C5A5C /* Debug */,
+				DDFB85D92555EBD900A11C23 /* Beta */,
 				04FD116D1EF2FE1D000C5A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3872,6 +3980,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E04010A1D1C98220051BCFA /* Debug */,
+				DDFB85CC2555EBD900A11C23 /* Beta */,
 				6E04010B1D1C98220051BCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3881,6 +3990,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E04017E1D1CAC710051BCFA /* Debug */,
+				DDFB85D12555EBD900A11C23 /* Beta */,
 				6E04017F1D1CAC710051BCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3890,6 +4000,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E2395811D22EF4F00E543C8 /* Debug */,
+				DDFB85D02555EBD900A11C23 /* Beta */,
 				6E2395821D22EF4F00E543C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3899,6 +4010,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E6BFC321D234FAE00DF7617 /* Debug */,
+				DDFB85D22555EBD900A11C23 /* Beta */,
 				6E6BFC331D234FAE00DF7617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3908,6 +4020,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8414DF7B24599AF800B316C5 /* Debug */,
+				DDFB85CE2555EBD900A11C23 /* Beta */,
 				8414DF7C24599AF800B316C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3917,6 +4030,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C229D8AD2546E7E5001909F3 /* Debug */,
+				DDFB85CD2555EBD900A11C23 /* Beta */,
 				C229D8AE2546E7E5001909F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3926,6 +4040,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A91FBC230C01140068070D /* Debug */,
+				DDFB85CF2555EBD900A11C23 /* Beta */,
 				C9A91FBD230C01140068070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3935,6 +4050,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A92005230C05D70068070D /* Debug */,
+				DDFB85D32555EBD900A11C23 /* Beta */,
 				C9A92006230C05D70068070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3944,6 +4060,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A92022230C07A50068070D /* Debug */,
+				DDFB85D62555EBD900A11C23 /* Beta */,
 				C9A92023230C07A50068070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

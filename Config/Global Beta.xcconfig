@@ -1,0 +1,4 @@
+#include "./Global Debug.xcconfig"
+
+// :Mark: Architectures
+ONLY_ACTIVE_ARCH = NO
